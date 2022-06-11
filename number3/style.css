@@ -4,11 +4,13 @@
     margin: 0;
     font-family: 'Roboto';
 }
-
-body {
-    margin: 10px;
+a {
+    text-decoration: none;
+}
+.main {
     border: 1px solid #DDDDDD;
     border-radius: 20px;
+    margin: 0 40px;
 }
 
 .header {
