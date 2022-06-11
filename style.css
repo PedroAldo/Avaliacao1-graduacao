@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+body {
+    height: 960px;
+}
+
+.top-header {
+    background-color: #1F4379;
+}
+.top-header-titulo {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.top-header-titulo:hover {
+    transition: all .2s ease-in-out;
+    opacity: 70%;
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    padding: 30px 0;
+    background-color: #ffffff;
+}
+.bottom-link {
+    color: #ffffff;
+    font-size: 16px;
+}
+.bottom-link:hover {
+    transition: all .2s ease-in-out;
+    opacity: 50%;
+}
+
+.middle {
+    display: grid;
+    justify-content: flex-start;
+    justify-items: center;
+    grid-template-columns: repeat(1, 370px 1fr);
+    overflow-x: hidden;
+    background-color: #1F4379;
+    height: 100%;
+}
+
+.middle-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0 20px;
+    gap: 10px;
+    border-right: 1px solid #ffffff;
+}
+
+.middle-infos-img {
+    margin-top: 40px;
+    max-width: 250px;
+    border: 1px solid #FFFFFF;
+}
+
+.middle-infos-email-icon,
+.middle-infos-linkedin-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.middle-infos-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+.middle-infos-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.middle-infos-contact1,
+.middle-infos-contact2 {
+    display: flex;
+    align-items: center;
+}
+
+.middle-atividades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.middle-atividade {
+    margin-top: 50px;
+    display: grid;
+    gap: 20px;
+}

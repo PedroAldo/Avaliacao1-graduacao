@@ -1,0 +1,16 @@
+
+.top-header {
+    background-color: #1F4379;
+    margin-bottom: 40px;
+}
+.top-header-titulo {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.top-header-titulo:hover {
+    transition: all .2s ease-in-out;
+    opacity: 70%;
+}
